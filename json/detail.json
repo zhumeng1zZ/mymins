@@ -1,0 +1,16 @@
+{
+    "data": [{
+        "id": "1",
+        "title": "MM 肥牛火锅片 900g",
+        "particulars": "澳洲直接进口，谷饲育肥100天，厚度2毫米，火锅小炒",
+        "price": "73.8",
+        "num": "199",
+        "url": "http://127.0.0.1/mymin/sanms/img/2.93.jpg,http://127.0.0.1/mymin/sanms/img/2.6.jpg,http://127.0.0.1/mymin/sanms/img/2.7.jpg,http://127.0.0.1/mymin/sanms/img/2.9.jpg,http://127.0.0.1/mymin/sanms/img/2.91.jpg,http://127.0.0.1/mymin/sanms/img/2.92.jpg",
+        "username": "15551368695",
+        "password": "123456",
+        "yonghu": "zhumeng",
+        "emali": "305179435@qq.com",
+        "repass": "123456"
+
+    }]
+}

@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>注册</title>
+    <link rel="stylesheet" href="../sass/registr.css">
+    <link rel="stylesheet" href="../font/iconfont.woff">
+</head>
+
+<body>
+    <div class="header">
+        <div class="top">
+            <div class="login-top">
+                <div class="login-box">
+                    <a href="#"><img src="../img/4.png" alt=""></a>
+                </div>
+                <h3><em>欢迎注册</em></h3>
+            </div>
+        </div>
+        <div class="zhuce">
+            <div class="tu">
+                <a href="#" class="f1 cur">
+                    <em class="iconfont">&#xe640;</em>
+                    <b>暂无会员卡</b>
+                    <span><i class="iconfont">&#xe622;</i></span>
+                </a>
+                <a href="#" class="fr">
+                    <em class="iconfont">&#xe63f;</em>
+                    <b>已有会员卡</b>
+                </a>
+            </div>
+            <div class="put">
+                <form action="../html/login.html" method="post" class="form1">
+                    <div class="p1">
+                        <input type="text" placeholder="用户名" class="username ipt" id="username" name="username"><span></span>
+                        <p>4-20位字符，可由中文、英文、数字</p>
+                    </div>
+                    <div class="p1">
+                        <input type="text" placeholder="邮箱地址" class="email ipt" id="email" name="email"><span></span>
+                        <p>4-请输入常用邮箱，可用作登录账户，接受订单通知和找回密码之用</p>
+                    </div>
+                    <div class="p1">
+                        <input type="password" placeholder="设置密码" class="password ipt" id="password" name="password"><span></span>
+                        <p>4-6-20位字符，可由大小写英文、数字或符号“-”“_”组成</p>
+                    </div>
+                    <div class="p1">
+                        <input type="password" placeholder="确认密码" class="repass ipt" id="repass" name="repass"><span></span>
+                        <p>4-20位字符，可由中文、英文、数字</p>
+                    </div>
+                    <div class="p1"><input type="text" placeholder="您的手机号" class="shoujihao ipt" id="shoujihao" name="shoujihao"><span></span>
+                    </div>
+                    <div class="p1" style="height: 38px;">
+                        <input type="text" placeholder="验证码" class="yanzhengma ipt" id="yanzhegma" name="yanzhengma" style="width: 290px;float: left;"><span class="s1"></span>
+                    </div>
+                    <div class="sp">
+                        <input type="checkbox"><label for="#">&nbsp;订阅优惠信息</label>
+                    </div>
+                    <div class="sp">
+                        <input type="checkbox"><label><a class="a1">《山姆会籍使用条款》</a>和<a class="a1">《隐私政策》</a></label>
+                    </div>
+                    <div class="btn">
+                        <a href="">
+                            <input type="submit" name="submit" id="" value="提交">
+                        </a>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+    <script src="../js/ajax.js"></script>
+    <script src="../js/registr.js"></script>
+</body>
+
+</html>

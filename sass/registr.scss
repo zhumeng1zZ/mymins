@@ -1,0 +1,209 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+//字体样式 和通用样式
+@font-face {
+    font-family: "iconfont"; 
+    src: url(./../font/iconfont.woff) format("woff");
+}
+.iconfont{
+    font-family: "iconfont" !important;
+    font-size: 16px;
+    font-style: normal;
+    -webkit-font-smoothing: antialiased;
+    -webkit-text-stroke-width: .2px;
+}
+.f1{
+    float: left;
+}
+.fr{
+    float: right;
+}
+$sizi : 12px;
+$line : 15px;
+$family : Arial, Helvetica, sans-serif;
+em{
+    font-style: normal;
+}
+a{  
+    color: #333;
+    text-decoration: none;
+}
+body{
+    font: $sizi $family;
+    line-height: $line;
+    overflow-x: hidden;
+    background: #f8f8f8;
+}
+.header{
+    background: #fff;
+    .top{
+        background: #f8f8f8;
+        .login-top{
+            width: 190px;
+            margin: 0 auto;
+            padding: 50px 0;
+            .login-box{
+                width: 100px;
+                height: 100px;
+                margin: 0 auto;
+                a{
+                    img{
+                        width: 100px;
+                        height: 100px;
+                    }
+                }
+            }
+            h3{
+                margin-top: 30px;
+                border-top: 1px solid #b3b3b3;
+                text-align: center;
+                color: #333;
+                font-size: 20px;
+                font-family: "Microsoft YaHei";
+                font-weight: normal;
+                em{
+                    position: relative;
+                    top: -15px;
+                    background: #f8f8f8;
+                    padding: 0 20px;
+                    line-height: 30px;
+                }
+            }
+        }
+    }
+    .zhuce{
+        padding: 30px 0;
+        border-top: 1px solid #eee;
+        .tu{
+            width: 442px;
+            height: 140px;
+            padding: 20px 0 30px;
+            margin: 0 auto;
+            a.cur{
+                width: 196px;
+                height: 132px;
+                border: 2px solid #0799c9;
+                background: #fff;
+            }
+             a {
+                position: relative;
+                width: 198px;
+                height: 134px;
+                border: 1px solid #e5e5e5;
+                border-radius: 4px;
+                background: #f8f8f8;
+                line-height: 20px;
+                text-align: center;
+                color: #374551;
+                em{
+                    display: block;
+                    font-size: 36px;
+                    padding: 24px 0;
+                    color: #0799c9;
+                    line-height: 36px;
+                }
+                b{
+                    font-size: 18px;
+                    font-family: "Microsoft YaHei";
+                }
+                span{
+                    position: absolute;
+                    right: -7px;
+                    top: -7px;
+                    width: 24px;
+                    height: 24px;
+                    border-radius: 50%;
+                    border: 2px solid #0799c9;
+                    background: #fff;
+                }
+            }
+        }
+        .put{
+            width: 442px;
+            margin: 0 auto;
+            .p1{
+                display: block;
+                margin-bottom: 32px;
+                position: relative;
+                .ipt{
+                    width: 440px;
+                    height: 36px;
+                    border: 1px solid #dcdcdc;
+                    border-radius: 2px;
+                    line-height: 36px;
+                    text-indent: 10px;
+                    font-size: 14px
+                }
+                span{
+                    position: absolute;
+                    display: block;
+                    right: -136px;
+                    top: 12px;
+                }
+                .s1{
+                    position: absolute;
+                    right: 0;
+                    top: 0;
+                    width: 140px;
+                    height: 36px;
+                    border: 1px solid #eee;
+                    background-color: #f7f7f7;
+                    line-height: 36px;
+                    text-align: center;
+                    border-radius: 2px;
+                    color: #666;
+                    margin: 0;
+                }
+                span {
+                    margin-left: 15px;
+                }
+                p{
+                    position: absolute;
+                    top: 38px;
+                    color: #aaa;
+                    text-indent: 10px;
+                    line-height: 32px;
+                }
+            }
+        }
+    }
+}
+.sp input[type="checkbox"]{
+    position: relative;
+    width: 13px;
+    height: 13px;
+    border: 1px solid #006aaf;
+    border-radius: 2px;
+    vertical-align: middle;
+}
+.sp{
+    label a{
+        color: #06c;
+    }
+}
+.btn{
+    margin: 24px 15px 0;
+    a{
+    display: block;
+    width: 100%;
+    height: 50px;
+    margin-top: 5px;
+    border-radius: 3px;
+    color: #fff;
+    line-height: 50px;
+    font-size: 18px;
+    font-family: "Microsoft YaHei";
+    font-weight: bold;
+    width: 220px;
+    margin: 0 auto;
+        input{
+            width: 100%;
+            height: 100%;
+            border: none;
+            background: #006aaf;
+            color: #fff;
+        }
+    }
+}
